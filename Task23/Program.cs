@@ -7,7 +7,7 @@ FindCube(number);
 void FindCube(int numLocal)
 {
     for (int i = 1; i <= numLocal; i++)
-    {Console.WriteLine (Convert.ToInt32(Math.Pow(i, 3)));}
+    { Console.WriteLine(Math.Pow(i, 3)); }
 }
 
 
